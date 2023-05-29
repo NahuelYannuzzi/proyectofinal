@@ -1,0 +1,209 @@
+/*------------------------ Menu de navegacion -------------------------*/
+
+nav{
+    text-align: center;
+    padding: 30px 50px;
+    
+}
+
+nav a{
+    color: rgb(225, 193, 233);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: 'Karla', sans-serif;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    font-size: 1.5em;
+    width: 300px;
+    -moz-transition: font-size 500ms linear 0s; 
+    -webkit-transition: font-size 500ms linear 0s;
+    -o-transition: font-size 500ms linear 0s;
+    transition: font-size 500ms linear 0s;
+}
+
+/* Centro de ayuda*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{
+    background-color: rgb(187, 127, 255);
+    background-image: url(../img/fbe6fba29e7dfed65eba8afb672e5e7b.jpg);
+}
+
+
+
+.container{
+    display: flex;
+    height: 700px;
+    width: 1000px;
+    box-shadow: 0 0 20px rgba(red, green, blue, alpha);
+    margin: auto;
+    margin-top: 150px;
+}
+
+.info{
+    background-image: url(../img/fbe6fba29e7dfed65eba8afb672e5e7b.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 50px;
+    width: 50%;
+    text-align: center;
+}
+
+.txt-1{
+    color: rgb(12, 29, 85);
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.info h2{
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.info hr{
+    width: 55px;
+    border: 4px solid cornflowerblue;
+    margin-left: 170px;
+    margin-bottom: 25px;
+} 
+
+.txt-2{
+    color: aquamarine;
+    font-size: 18px;
+}
+
+.form{
+    padding: 150px 100px;
+    width: 50%;
+    text-align: center;
+    background-color: black;
+}
+
+.form h2{
+    color: rgb(204, 32, 219);
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.form p{
+    font-size: 16px;
+    color: lavenderblush;
+    margin-bottom: 25px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    outline: none;
+    border-color: blue;
+    border-width: 0px 0px 0px 5px;
+    padding: 15px 35px;
+    margin-bottom: 20px;
+}
+
+.mensaje{
+    outline: none;
+    border: blue;
+    border-width: 0px 0px 0px 5px;
+    padding: 15px 35px;
+    margin-bottom: 20px;
+} 
+
+
+.Colorete1{
+    color: aquamarine;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10%;
+    text-decoration: none;
+    font-size: large;
+}
+
+.Colorete2{
+    color: aquamarine;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: large;
+}
+
+.submit{
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    border: 2px solid azure;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.submit button[type="submit"]{
+    background: none;
+}
+
+.wasap{
+    width: 20px;
+}
+
+.wasap-texto{
+    color: rgb(36, 247, 8);
+}
+
+.correo{
+    width: 25px;
+}
+
+.correo-texto{
+    color: #fdbcbc;
+}
+
+.insta{
+    width: 30px;
+}
+
+.insta-texto{
+    color: rgb(164, 9, 211);
+}
+
+@media (max-width:990px){
+    .container{
+        width: 350px;
+        height: 600px;
+        margin-top: 100px;
+    }
+
+    .info{
+        display: none;
+    }
+
+    .form{
+        width: 100%;
+        padding: 30px;
+    }
+    
+    .form h2{
+        margin-top: 40px;
+    }
+}
+
