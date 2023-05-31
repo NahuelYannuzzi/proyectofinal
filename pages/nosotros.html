@@ -12,29 +12,126 @@
         <nav>
             <a href="../index.html">Inicio</a>
             <a href="">Acerca de nosotros</a>
-            <a href="">Instalaciones</a>
             <a href="">Servicios</a>
             <a href="./contacto.html">Contacto</a>
+
+            <div>
+                <h1>Acerca de nosotros</h1>
+            </div>
         </nav>
     </header>
 
-    <section class="titulo-principal">
-        <h1>¿Quienes somos?</h1>
-        <h2>Somos una empresa dedicada a la tecnologia</h2>
-    </section>
-    
-    <img src="../img/Portada+.jpg" alt="">
 
     <div>
-
-        <h3>Producto:</h3>  
-        <h3>Nuestra historia:</h3>
-        <h3>Nuestra Mision:</h3>
-        <h3>Nuestra Vision:</h3>
-        <h3>Nuestros valores</h3>
-   
         
-    </div>
+        <img src="../img/Historia.avif" alt="" class="imagen1">
+
+        <div class="text-rigth">
+            <h2>Nuestra historia:</h2>
+            <br>
+            <br>
+            <h3><li>Somos una empresa dedicada a la tecnologia, creada en 2023, a pedido de el profesor Tomas, para ser presentada como proyecto final para la comision 43 de BA.</li></h3>
+        </div>
+            
+
+        <img src="../img/M ision.jpg" alt="" class="imagen2">
+
+        <div class="text-left">
+            <h2>Nuestra Mision:</h2>
+            <br>
+            <br>
+            <h3><li>Nuestra mision es la venta y compra de productos de computacion garantizando la mayor seguridad y confianza para nuestros clientes </li></h3>
+        </div>
+        
+
+        <img src="../img/Vision.jpg" alt="" class="imagen3">
+
+        <div class="text-rigth2">
+            <h2>Nuestra Vision:</h2>
+            <br>
+            <h3><li>Somos una empresa en crecimiento, nuestra vision es poder llegar a diferentes partes del pais y lograr abrir mas sucursales para aumentar la eficacia</li></h3>
+        </div>
+            
+        <img src="../img/Valores.jpg" alt="" class="imagen4">
+
+        <div class="text-left2">
+            <h2>¿Cuales son nuestos valores?</h2>
+        
+        <br>
+        <div class="text1">
+        <h4><span>1</span> Honestidad</h4>
+            <div>
+                <p>Siempre mantenemos la honestidad por sobre todo, para que nuestros clientes no se lleven ningun disgusto sobre los productos comprados, cada detalle o inperfeccion es publicado y detallado</p>
+            </div>
+
+            <br>
+
+        <h4><span>2</span> Transparencia</h4>
+            <div>
+                <p>Siempre buscamos brindar toda la informacion posible a nuestros clientes, somos 100% transparentes con la informacion que brindamos para mantener la seguridad con la que trabajamos </p>
+            </div>
+
+            <br>
+        
+        <h4><span>3</span> Responsabilidad</h4>
+            <div>
+                <p>Por sobre todo, siempre mantenemos nuestro compromiso con los clientes para que su producto llegue en tiempo y forma</p>
+            </div>
+
+            <br>
+
+        <h4><span>4</span> Calidad</h4>
+            <div>
+                <p>Cada producto vendido se prueba con anticipacion antes de ser publicado, estos tienen que cumplir con diferentes aspectos para garantizar la calidad</p>
+            </div>
+        </div>
+            
+        <br>
+
+        <section>
+            <div class="nuestrosclientes">
+                <h2 class="subtitulo">Que dicen nuestros clientes</h2>
+                <div class="cliente1">
+                    <div class="clientes">
+                        <img src="" alt="">
+                        <div>
+                            <h4>Nombre</h4>
+                            <p>Lalalalalalaal</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+            
+    
+
+
+
+        <section id="app">
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <div class="comment">
+                <p v-for="items in item" v-text="items"></p>
+                  </div>
+                  </div>
+                  </div>
+              <div class="row">
+                <div class="col-6">
+              <textarea type="text" class="input" placeholder="Dejanos tu Comentario" v-model="newItem" @keyup.enter="addItem()"></textarea>
+                  <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Enviar</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+       
+    
+        
+    <script src="../js/script.js"></script>
     
 </body>
 </html>
