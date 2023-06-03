@@ -1,32 +1,4 @@
-/*------------------------ Menu de navegacion -------------------------*/
-
-nav{
-    text-align: center;
-    padding: 30px 50px;
-    
-}
-
-nav a{
-    color: rgb(225, 193, 233);
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
-    font-family: 'Karla', sans-serif;
-}
-
-nav a:hover{
-    text-decoration: underline;
-    font-size: 1.5em;
-    width: 300px;
-    -moz-transition: font-size 500ms linear 0s; 
-    -webkit-transition: font-size 500ms linear 0s;
-    -o-transition: font-size 500ms linear 0s;
-    transition: font-size 500ms linear 0s;
-}
-
-/*---------------------------------titulo*/
-
- *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,9 +14,9 @@ body{
 
 header{
     width: 100%;
-    height: 600px;
+    height: 800px;
     background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(298, 32%, 56%, 0.644), hsla(226, 68%, 57%, 0.829)), url(../img/Portada2.webp); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    background: linear-gradient(to right, hsla(298, 32%, 56%, 0.39), hsla(226, 68%, 57%, 0.541)), url(../img/Portada2.webp); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -181,14 +153,13 @@ h2{
 
 
 .container {
-	max-width: 640px;
+	max-width: 840px;
 	margin: 30px auto;
 	background: #fff;
 	border-radius: 8px;
 	padding: 20px;
     position: relative;
-    top: 500px;
-    
+    top: 40px;
 }
 
 .comment {
@@ -196,7 +167,7 @@ h2{
 	transition: all 1s;
 }
 .commentClicked {
-	min-height: 0px;
+	min-height: 1px;
 	border: 1px solid #eee;
 	border-radius: 5px;
 	padding: 5px 10px;
@@ -205,7 +176,20 @@ h2{
     
 }
 
-.container textarea {
+.container .inputnombre{
+    width: 50%;
+    display: flex;
+    border: none;
+	background: #E8E8E8;
+	padding: 15px 10px;
+	height: 50%;
+	border-radius: 6px 6px 0px 0px;
+	border-bottom: 2px solid #016BA8;
+	transition: all 0.5s;
+	margin-top: 15px;
+}
+
+.container .input{
 	width: 100%;
 	border: none;
 	background: #E8E8E8;
@@ -238,4 +222,90 @@ button.primaryContained:hover {
 	background: #9201A8;
 }
 
+.comentarios .caja-conteiner .caja{
+    background: white;
+    padding: 1px;
+    text-align: center;
+    position: relative;
+    border: 1rem solid rgba(252, 252, 252, 0.2);   
+    box-shadow: 0 .5rem 1rem;
+    flex: 1 1 40rem;
+    border-radius: .5rem;
+}
+
+.comentarios .caja-conteiner .caja .estrellas{
+    margin-top: 10px;
+}
+
+
+.comentarios .caja-conteiner .caja img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 7rem;
+    width: 7rem;
+    margin-top: 1rem;
+}
+
+.comentarios .caja-conteiner .caja h5{
+    color: green;
+    font-size: 2rem;
+}
+
+.comentarios .caja-conteiner .caja .comentario{
+    color: #666;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.comentarioscliente{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #e6c0f5;
+}
+
+h5{
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: #e6c0f5;
+}
+
+.footer{
+    background: #414141;
+    padding: 60px 0 ;
+    overflow: hidden;
+    margin: auto;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 180%;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid gray;
+    
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #520669;
+    border-bottom: 3px solid rgba(51, 4, 105, 0.692);
+    padding-bottom:  5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #31025e;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #3d3d3d;
+    width: 180%;
+}
 

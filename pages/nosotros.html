@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/nosotros.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/navegacion.css">
+    <link rel="shortcut icon" href="../img/Sleeping_Computer_22599.png" type="image/x-icon">
+    <title>Acerca de nosotros</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="../index.html">Inicio</a>
-            <a href="">Acerca de nosotros</a>
-            <a href="">Servicios</a>
+            <a href="/index.html">Inicio</a>
+            <a href="./productos.html">Productos</a>
+            <a href="./servicio.html">Servicios</a>
+            <a href="./nosotros.html">Acerca de nosotros</a>
             <a href="./contacto.html">Contacto</a>
+            
 
             <div>
                 <h1>Acerca de nosotros</h1>
@@ -87,28 +91,84 @@
         </div>
             
         <br>
+        <br>
+        <br>
+        <br>
 
-        <section>
-            <div class="nuestrosclientes">
-                <h2 class="subtitulo">Que dicen nuestros clientes</h2>
-                <div class="cliente1">
-                    <div class="clientes">
-                        <img src="" alt="">
-                        <div>
-                            <h4>Nombre</h4>
-                            <p>Lalalalalalaal</p>
-                        </div>
+        <section class="comentarios" id="opiniones">
+
+            <h4 class="comentarioscliente">Que opinan nuestros clientes</h4>
+            <div class="caja-conteiner">
+                <div class="caja">
+                    <div class="usuarios"></div>
+                    <img src="../img/user_1.png" alt="">
+                    <h5>Pedro Altamirano</h5>
+                    <p>@Pedro1650</p>
+                    <div class="estrellas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="comentario">
+                        <p>
+                            En mi experiencia Terra realmente es el mejor servicio, en verdad es sencillo, inteligente y amigable. Tiene herramientas realmente fáciles de usar y templetes muy bellos y útiles. Yo me siento muy feliz y lo recomiendo ampliamente. De hecho ya le he estado recomendando. Muchas gracias!
+                        </p>
 
                     </div>
 
                 </div>
+                <div class="caja">
+                    <div class="usuarios"></div>
+                    <img src="../img/user_3.png" alt="">
+                    <h5>Nicolas Aquino</h5>
+                    <p>@nico23</p>
+                    <div class="estrellas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="comentario">
+                        <p>
+                            Me prestaron excelente servicio, puntual y cumplido. Además me ayudaron y contestaron mis dudas. Recomiendo esta empresa ampliamente.
+                        </p>
+
+                    </div>
+
+                </div>
+                <div class="caja">
+                    <div class="usuarios"></div>
+                    <img src="../img/user_2.png" alt="">
+                    <h5>Flor Herrera</h5>
+                    <p>@flor_lp</p>
+                    <div class="estrellas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="comentario">
+                        <p>
+                            Estoy muy agusto con esta pagina, me gustan sus diseños en Webs yo encontré la mejor opción.
+                        </p>
+
+                    </div>
+
+                </div>
+
             </div>
+
+
         </section>
+
+       <div>
+        <h5>Dejanos tu comentario</h5>
+       </div>
             
-    
-
-
-
         <section id="app">
             <div class="container">
               <div class="row">
@@ -120,6 +180,8 @@
                   </div>
               <div class="row">
                 <div class="col-6">
+                <textarea type="text" class="inputnombre" placeholder="Escribi tu perfil de instagram o facebook" v-model="newItem" @keyup.enter="addItem()"></textarea>
+                
               <textarea type="text" class="input" placeholder="Dejanos tu Comentario" v-model="newItem" @keyup.enter="addItem()"></textarea>
                   <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Enviar</button>
                 </div>
@@ -127,11 +189,30 @@
             </div>
           </section>
 
-
-       
+          <footer>
+        
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <h4>Correo</h4>
+                    <p>nahu00070@gmail.com</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Facebook</h4>
+                    <p>@nahuel.yannuzzi.9</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Instagram</h4>
+                    <p>@nahuel_yannuzzi</p>
+                </div>
+            </div>
     
+            <h2 class="titulo-final">&copy; Nahuel Yannuzzi</h2>
+    
+    
+        </footer>
         
     <script src="../js/script.js"></script>
+    <script src="https://kit.fontawesome.com/5c6103afc7.js" crossorigin="anonymous"></script>
     
 </body>
 </html>

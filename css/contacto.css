@@ -1,31 +1,3 @@
-/*------------------------ Menu de navegacion -------------------------*/
-
-nav{
-    text-align: center;
-    padding: 30px 50px;
-    
-}
-
-nav a{
-    color: rgb(225, 193, 233);
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
-    font-family: 'Karla', sans-serif;
-}
-
-nav a:hover{
-    text-decoration: underline;
-    font-size: 1.5em;
-    width: 300px;
-    -moz-transition: font-size 500ms linear 0s; 
-    -webkit-transition: font-size 500ms linear 0s;
-    -o-transition: font-size 500ms linear 0s;
-    transition: font-size 500ms linear 0s;
-}
-
-/* Centro de ayuda*/
-
 *{
     margin: 0;
     padding: 0;
@@ -37,6 +9,7 @@ nav a:hover{
 body{
     background-color: rgb(187, 127, 255);
     background-image: url(../img/fbe6fba29e7dfed65eba8afb672e5e7b.jpg);
+    
 }
 
 
