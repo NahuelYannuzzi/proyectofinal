@@ -4,7 +4,8 @@ function enviar(){
     alert("Nos pondremos en contacto con usted en breve")
 }
 
-//-------------------------------------------------------------------Productos
+//-------------------------------------------------------------------Nosotros
 
-function stock(){
-    alert("No hay stock disponible, Intentelo mas tarde")
+function servicio(){
+    alert("Tendremos en cuenta tu reseña y la calificaremos, muchas gracias")
+}
