@@ -160,6 +160,7 @@ h2{
 	padding: 20px;
     position: relative;
     top: 40px;
+    background-color: black;
 }
 
 .comment {
@@ -231,6 +232,12 @@ button.primaryContained:hover {
     box-shadow: 0 .5rem 1rem;
     flex: 1 1 40rem;
     border-radius: .5rem;
+    background-color: black;
+    color: white;
+}
+
+.comentarios .caja-conteiner .caja p{
+    color: white;
 }
 
 .comentarios .caja-conteiner .caja .estrellas{
@@ -244,6 +251,7 @@ button.primaryContained:hover {
     height: 7rem;
     width: 7rem;
     margin-top: 1rem;
+    color: rgb(230, 85, 230);
 }
 
 .comentarios .caja-conteiner .caja h5{

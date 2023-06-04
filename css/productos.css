@@ -43,6 +43,7 @@ h1{
 h2{
     justify-content: center;
     text-align: center;
+    color: white;
 }
 
 .card{
@@ -53,6 +54,8 @@ h2{
     left: 20%;
     margin-bottom: 40px;
     margin-top: 40px;
+    background-color: black;
+    color: white;
 }
 
 .cards .card{
