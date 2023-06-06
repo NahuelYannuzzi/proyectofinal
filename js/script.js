@@ -1,11 +1,14 @@
-//-------------------------------------------------------------------Contacto
 
-function enviar(){
-    alert("Nos pondremos en contacto con usted en breve")
-}
+console.log("Inicio de pagina");
 
-//-------------------------------------------------------------------Nosotros
+alerta = alert("Para continuar, ingrese sus datos en la siguiente ventana");
 
-function servicio(){
-    alert("Tendremos en cuenta tu reseña y la calificaremos, muchas gracias")
-}
+
+console.log("Casillero");
+
+entrada = prompt("Ingrese su Nombre y Apellido");
+
+let salida = entrada + "Bienvenido";
+alert(salida);
+
+
